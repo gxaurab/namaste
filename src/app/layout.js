@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body >
+      <body className="bg-no-repeat bg-cover bg-center min-h-screen" style ={{backgroundImage: "url('/PanautiBackground.jpg')"}} >
         <Navbar/>
         <main className="overflow-hidden " >{children}</main>
         <Footer/>
