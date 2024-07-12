@@ -23,7 +23,7 @@ const Navbar = () => {
               />
             </Link>
           </div>
-          <div className="hidden md:flex items-center space-x-5">            
+          <div className=" hidden md:flex items-center space-x-5">            
             {NAVLINKS.map((link) => (
               <Link
                 href={link.href}

@@ -7,8 +7,8 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        
+      fontFamily: {
+        catchy: ['CatchyMager-Normal', 'sans-serif']
       },
       colors: {
 

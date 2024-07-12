@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Hero = () => {
   return (
-    <div className="relative h-screen">
+    <div className="bg-no-repeat bg-cover bg-center h-screen">
       <Image
         src="/PanautiBackground.jpg"  
         layout="fill"
@@ -13,7 +13,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
         <div >
           <h1 className="text-4xl md:text-6xl lg:text-7.2xl text-white font-bold text-center">Namaste Samudayik Homestay</h1>
-          <h2 className='text-2xl bg-black bg-opacity-15 text-white font-medium text-center p-3'>
+          <h2 className=' text-2xl bg-black bg-opacity-15 text-white font-medium text-center p-3'>
             Discover Authetic Nepali Hospitality <br/>
             Expericence Traditional Newari <br/> Culture
           </h2>
