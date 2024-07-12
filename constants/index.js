@@ -1,7 +1,7 @@
 export const NAVLINKS = [
-    {href: "/", key: "Gallery", label: "Gallery"},
-    {href: "/", key: "Reviews", label: "Reviews"},
-    {href: "/", key: "About Us", label: "About Us"},
+    {href: "/", key: "Gallery", label: "Gallery", href:'/gallery'},
+    {href: "/", key: "Reviews", label: "Reviews", href:"/reviews"},
+    {href: "/", key: "About Us", label: "About Us", href: "/aboutus"},
 ];
 
 export const carouselSlides = [

@@ -33,9 +33,11 @@ const Navbar = () => {
                 {link.label}
               </Link>
             ))}
+            <Link href="contact-book">
             <button className="bg-green-200 hover:bg-green-400 text-black hover:text-white px-6 py-3 rounded-full text-xl transition duration-300"> {/* Increased padding and font size */}
               Contact/Book
             </button>
+            </Link>
           </div>
           <div className="md:hidden flex items-center">
             <button
@@ -67,9 +69,11 @@ const Navbar = () => {
                 {link.label}
               </Link>
             ))}
+            <Link href="/contact-book">
             <button className="w-full text-left bg-green-200 hover:bg-green-400 text-black hover:text-white px-3 py-2 rounded-md text-base font-medium transition duration-300">
               Contact/Book
             </button>
+            </Link>
           </div>
         </div>
       )}
