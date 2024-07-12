@@ -10,9 +10,9 @@ module.exports = {
       fontFamily: {
         catchy: ['CatchyMager-Normal', 'sans-serif']
       },
-      colors: {
-
-      },
+      backgroundImage: theme =>({
+        'panauti-image': "url('/Panauti1.jpg')",
+      }),
       screens:{
 
       },

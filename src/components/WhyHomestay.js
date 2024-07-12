@@ -27,11 +27,11 @@ const WhyHomestay = () => {
       <div className="text-left">
         <h1 className="text-3xl ml-20 text-amber-950">Why our Homestay?</h1>
       </div>
-      <div className="flex items-center justify-center mt-10   ">
+      <div className="flex items-center justify-center mt-10  pb-10 ">
         <button onClick={prevSlide} className=" text-xl px-4 py-2 bg-yellow-300 text-black rounded-full">
            {"<"}
         </button>
-        <div className="sm:flex w-1/2 h-96 items-center justify-center shadow-lg rounded-lg overflow-hidden">
+        <div className="sm:flex sm:w-full lg:w-1/2 h-96 items-center justify-center shadow-lg rounded-lg overflow-hidden">
           <div className=" p-5 ">
             <h1 className="text-2xl text-green-800 ">{carouselSlides[currentSlide].text}</h1> <h2 className="text-1/2xl "> {carouselSlides[currentSlide].text2 }</h2>
           </div>
