@@ -15,7 +15,7 @@ const Features = () => {
               <h1 className="text-2xl text-green-800">Book your stay with a local family</h1>
               <p className="text-amber-950">
                 Your host family welcomes you in their home.<br />
-                You'll have a private room and a shared/private washroom.
+                You&apos;ll have a private room and a shared/private washroom.
               </p>
             </div>
           </div>
@@ -34,7 +34,7 @@ const Features = () => {
             <div>
               <h1 className="text-2xl text-green-800">The whole community benefits</h1>
               <p className="text-amber-950">
-                Your can feel the real impact of money you paid.<br />
+                You can feel the real impact of money you paid.<br />
                 Hosts spends in the local market connected to the farmers,<br />
                 homestay profit fund projects like health camp are conducted.
               </p>
@@ -50,7 +50,7 @@ const Features = () => {
               <h1 className="text-2xl text-green-800">Book your stay with a local family</h1>
               <p className="text-amber-950">
                 Your host family welcomes you in their home.<br />
-                You'll have a private room and a shared/private washroom.
+                You&apos;ll have a private room and a shared/private washroom.
               </p>
             </div>
           </div>
@@ -69,7 +69,7 @@ const Features = () => {
             <div>
               <h1 className="text-2xl text-green-800">The whole community benefits</h1>
               <p className="text-amber-950">
-                Your can feel the real impact of money you paid.<br />
+                You can feel the real impact of money you paid.<br />
                 Hosts spends in the local market connected to the farmers,<br />
                 homestay profit fund projects like health camp are conducted.
               </p>
