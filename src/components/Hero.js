@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 const Hero = () => {
   return (
@@ -18,7 +19,8 @@ const Hero = () => {
             Expericence Traditional Newari <br/> Culture
           </h2>
           <div className=" flex justify-center ">
-            <button className="bg-green-200 hover:bg-green-400 text-black hover:text-white px-6 py-3 rounded-full text-2xl transition duration-300 "> Check Availability </button>
+            <Link href="/contact-book"><button className="bg-green-200 hover:bg-green-400 text-black hover:text-white px-6 py-3 rounded-full text-2xl transition duration-300 "> Check Availability </button>
+            </Link>
           </div>
         </div>
 

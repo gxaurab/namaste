@@ -10,7 +10,7 @@ const Footer = () => {
             <h1 className="text-lg font-semibold mb-2">Follow us on:</h1>
             <div className="flex items-center gap-2">
               <Image src="/facebook.jpg" width={24} height={24} alt="Facebook Icon" />
-              <a href="www.facebook.com">Facebook</a>
+              <a target="blank" href="www.facebook.com">Facebook</a>
             </div>
           </div>
 
