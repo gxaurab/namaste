@@ -3,6 +3,7 @@
 
 import { useEffect, useState } from "react";
 import { carouselSlides } from "../../constants";
+import Image from "next/image";
 
 const WhyHomestay = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -36,7 +37,7 @@ const WhyHomestay = () => {
             <h1 className="text-2xl text-green-800 ">{carouselSlides[currentSlide].text}</h1> <h2 className="text-1/2xl "> {carouselSlides[currentSlide].text2 }</h2>
           </div>
           <div className="w-full h-full">
-            <img
+            <Image
               src={carouselSlides[currentSlide].image}
               alt={carouselSlides[currentSlide].text}
               className="w-full h-full object-cover"
