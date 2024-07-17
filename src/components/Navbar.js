@@ -82,7 +82,7 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="md:hidden">
           <div className={`px-2 pt-2 pb-3 space-y-1 sm:px-3 ${
-            isScrolled ? 'bg-white/80 backdrop-blur-md' : 'bg-black/50'
+            isScrolled ? 'bg-white/80 h-24 backdrop-blur-md' : 'bg-black/50'
           }`}>
             {NAVLINKS.map((link) => (
               <Link
