@@ -53,7 +53,7 @@ const Navbar = () => {
             <Link href="contact-book">
               <button className={`px-6 py-3 rounded-full text-xl transition duration-300 ${
                 isScrolled 
-                  ? 'bg-green-200 hover:bg-green-400 text-black hover:text-white' 
+                  ? 'bg-green-300 hover:bg-green-400 text-black hover:text-white' 
                   : 'bg-green-300 hover:bg-green-400 text-black'
               }`}>
                 Contact/Book
@@ -98,7 +98,7 @@ const Navbar = () => {
             <Link href="/contact-book">
               <button className={`w-full text-left px-3 py-2 rounded-md text-base font-medium transition duration-300 ${
                 isScrolled 
-                  ? 'bg-green-200 hover:bg-green-400 text-black hover:text-white' 
+                  ? 'bg-green-300 hover:bg-green-400 text-black hover:text-white' 
                   : 'bg-green-300 hover:bg-green-400 text-black'
               }`}>
                 Contact/Book
